@@ -12,14 +12,14 @@
 
 # Scrapy settings for quotes_scraper_HW9 project
 
-BOT_NAME = 'quotes_scraper'
+BOT_NAME = 'scraper_quotes'
 
 
 SPIDER_MODULES = ['scraper_quotes.spiders']
 NEWSPIDER_MODULE = 'scraper_quotes.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'quotes_scraper (+http://www.yourdomain.com)'
+USER_AGENT = 'scraper_quotes (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
